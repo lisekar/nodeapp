@@ -7,6 +7,6 @@ console.log("Extention name : ", path.extname(filepath))    // get file extentio
 
 
 // get full path of "test.txt"
-console.log("joinedpath__dirname",__dirname+'\/test.txt') // not recommended one
+console.log("joinedpath__dirname",__dirname+'\/test.txt') // not recommended
 
 console.log("Joined path : ", path.join(__dirname,"demo","test.txt"))          //join method used to create or read file path irres[pectively OS platform
