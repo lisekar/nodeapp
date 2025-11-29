@@ -6,4 +6,4 @@ const userSchema = new mongoose.Schema({
   email: String,
 });
 
-module.exports = mongoose.model("User", userSchema); // model and schema name in function param
+module.exports = mongoose.model("User", userSchema); // model and schema name in function param used to export to outside access
