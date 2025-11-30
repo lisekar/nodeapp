@@ -2,7 +2,7 @@ const mongoose = require("mongoose")
 
 const deptSchema = new mongoose.Schema({
     "deptName": String,
-    "section":string
+    "section": String
 })
 
-module.exports("Dept",deptSchema)           // export Dept schema to outside access
+module.exports = mongoose.model("Dept",deptSchema)           // export Dept schema to outside access

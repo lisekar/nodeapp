@@ -1,5 +1,6 @@
 const express = require("express")
 const User = require("../models/User")
+const Dept = require("../models/Dept")
 const router = express.Router();
 
 // install nodemon package :  to reload always after change done.
